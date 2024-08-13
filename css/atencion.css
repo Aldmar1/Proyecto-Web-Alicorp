@@ -13,7 +13,7 @@
 
 .banner{
 
-    background-image: url(/image/banneraacyp.png);
+    background-image: url("../image/banneraacyp.png");
     
     background-repeat: no-repeat;
     background-size: cover;
