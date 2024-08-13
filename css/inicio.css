@@ -1,0 +1,197 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit
+    
+}
+
+/* titulos arriba de los containers */
+.title1{
+    color: #00580c;
+}
+.subtitle{
+    color: #00580c;
+}
+
+/* botones */
+.btn-outline-danger{
+    margin-top: 50px;
+}
+
+/* contenerdor de cards */
+.values1{
+    background-color: rgba(250,249,245,255);
+}
+
+/* container redes sociales */
+.containers-rrss{
+    width: 1060px;
+  margin: 0 auto;
+}
+
+.rr-ss{
+    display: flex; 
+    justify-content: center;
+    list-style: none;
+}
+
+/* listas dentro de nav_bar */
+.list{
+    padding: 10px;
+}
+
+/* modificación en estilo bootstrap en nav */
+
+.nav-item :hover{
+    color: #eb1d1d;
+}
+
+.nav-item{
+    font-size: 20px;
+    
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+p{
+    font-size: 17px;
+}
+
+li{
+    list-style-type: none;
+}
+/* cierre de modificación en estilo bootstrap en nav*/
+
+.banner {
+    position: relative;
+    overflow: hidden;
+}
+
+.button-container {
+    position: absolute;
+    text-align: center;
+    width: 80%;
+    left: 65%;
+    transform: translateX(-50%);
+    bottom: 30%;
+}
+
+.btn-green {
+    position: relative;
+    background-color: #026805;
+    color: white;
+    padding: 0.8em 3em;
+    text-decoration: none;
+    border-radius: 5%;
+    font-size: 2em;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    z-index: 1;
+}
+
+.btn-green:hover {
+    background-color: #054708;
+}
+
+.text-box {
+    position: absolute;
+    bottom: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #db0e0e;
+    border-radius: 45px;
+    padding: 10% 5%;
+    max-width: 90%;
+    margin-bottom: 20px;
+    z-index: 3;
+    box-sizing: border-box;
+    opacity: 85%;
+}
+
+.button-text {
+    color: white;
+    font-size: 3.5em;
+    font-weight: bold;
+    margin: 0;
+}
+
+@media (max-width: 1024px) {
+    .button-container {
+        width: 90%;
+        left: 60%;
+        bottom: 20%;
+    }
+
+    .btn-green {
+        padding: 1.2em 2.5em;
+        font-size: 1.8em;
+    }
+
+    .text-box {
+        padding: 15% 5%;
+        max-width: 85%;
+        bottom: 110%;
+    }
+
+    .button-text {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 768px) {
+    .button-container {
+        width: 95%;
+        left: 65%;
+        bottom: 15%;
+    }
+
+    .btn-green {
+        padding: 1em 2em;
+        font-size: 1.5em;
+    }
+
+    .text-box {
+        padding: 3% 2%;
+        max-width: 80%;
+        bottom: 100%;
+    }
+
+    .button-text {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 480px) {
+    .button-container {
+        width: 100%;
+        left: 70%;
+        bottom: 10%;
+    }
+
+    .btn-green {
+        padding: 0.8em 1.5em;
+        font-size: 1.2em;
+    }
+
+    .text-box {
+        padding: 12% 1%;
+        max-width: 90%;
+        bottom: 90%;
+    }
+
+    .button-text {
+        font-size: 1em;
+    }
+}
+
+
+
+
+
+  

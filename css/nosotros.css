@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+
+body {
+    font-family: "Sarala", sans-serif;
+    margin: 0;
+    background-color: #FAF9F5;
+}
+a {
+    text-decoration: none;
+    color: rgb(49, 44, 44);
+    font-size: 16px;
+    margin-right: 20px;
+}
+a:hover {
+    text-decoration: none;
+    color: rgb(236, 0, 0);
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.header {
+    display: flex;
+    height: 110px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    width: 70%;
+    margin: 0 auto;
+    font-weight: 600;
+
+}
+
+
+.information-section {
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    padding: 32px 0;
+
+    .information-section__left {
+        
+        .card {
+            width: 20rem;
+            height: 20rem;
+            border-radius: 3rem 0 3rem 0;
+            border: none;
+            padding: 1rem 2rem;
+
+            .card-title {
+                color: #1E5532;
+                font-family: "Ropa Sans", sans-serif;
+                font-size: 28px;
+                border-bottom: 1px solid green;
+            }
+
+            .btn {
+                padding: 0;
+                color: #7ABB34;
+            }
+        }
+    }
+
+    .information-section__right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1.2rem;
+    }
+}
+
+.model-section {
+    width: 75%;
+    margin: 0 auto;
+    padding: 32px 0;
+
+    .nav {
+        margin: 2.5rem 0;
+
+        .nav-item {
+            border-bottom: 1px solid black;
+        }
+    }
+}
+
+
+.nav-link{
+    color: #727272;
+}
+.nav-link:hover{
+    color: #f32d2d;
+}
+
+.foda{
+    background-color: white;
+}
+
+/* modificación en clase bootstrap */
+.foda-section {
+    width: 85%;
+    margin: 0 auto;
+    padding: 32px 0;
+    color: #1e5532;
+    display: flex;
+    justify-content: center;
+
+    p{
+        padding-right: 20px;
+    }
+    .foda-parts{
+        display: flex;
+        margin: 0 30px;
+        padding: 0 30px;
+        width: 50%;
+
+        .first-part{
+            width: 50%;
+            border-right: 1px solid #7abb34;
+           
+        }
+        .second-part{
+            width: 50%;
+            margin-left: 35px;
+
+        }
+    }
+}
+/* cierre de modificación en clase bootstrap */
+
+
+.international {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 70px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.footer {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    padding: 2rem 0;
+    height: 500px;
+    padding-bottom: 40px;
+    .footer__column {
+        width: 20%;
+
+        &.first {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &.third, &.fourth, &.fifth {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        &.fourth{
+            height: 370px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        a {
+            font-size: 10px;
+        }
+
+        a, img {
+            display: block;
+        }
+
+        a, h3, h4, h5 {
+            color: white;
+        }
+        h5 {
+            font-size: 15px;
+        }
+    }
+}
+
+.w-90 {
+    width: 90% !important;
+}
+
+h1{
+    font-family: "Ropa Sans", sans-serif;
+    font-size: 50px;
+    color: #1E5532;
+}
+h5{
+    font-family: "Ropa Sans", sans-serif;
+    color: #1E5532;
+}
+
+p{
+    color: #727272;
+}
+
+
+select {
+    color: white;             
+    padding: 0px 10px;        
+    font-size: 16px;          
+    border: 1px solid white;   
+    background-color: #ED1B2F; 
+    border-radius: 10px;        
+}
+
+select:hover{
+    color: white;
+    padding: 0px 10px;
+    font-size: 16px;
+    border-radius: 1px solid white;
+    background-color: #ED1B2F;
+    border-radius: 10px;
+}
+
+.nav-item :hover{
+    color: rgb(235, 29, 29);
+}
+
+.nav-item{
+    font-size: 20px;
+    
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+p{
+    font-size: 17px;
+}
+
+li{
+    list-style-type: none;
+}
+
+@media (max-width: 768px) {
+    .information-section {
+        display: flex;
+        width: 80%;
+    }
+
+    .model-section{
+        width: 90%;
+    }
+    
+    .international{
+        width: 80%;
+        margin: 0 auto;
+
+        img{
+            width: 80%;
+        }
+    }
+ 
+}
+
+@media(max-width: 768px){
+    .foda-section{
+    text-align: center;
+    width: 80%;
+    display: block;
+        .img-section{
+            margin: 0 auto;
+        }
+        .foda-parts{
+            margin: 15px auto;
+            width: 100%;
+
+            .first-part{
+                width: 50%;
+                border-right: 1px solid #7abb34;
+               
+            }
+            .second-part{
+                width: 50%;
+                margin-left: 35px;
+    
+        }
+    }
+}
+}
+
+@media (max-width: 480px){
+    body{
+        h1{
+            font-size: 28px;
+        }
+    }
+   .information-section{
+    width: 80%;
+    display: block;
+   }
+
+    .model-section{
+        width: 80%;
+        display: inline;
+    }
+
+    .foda-section{
+        display: block;
+
+        img{
+            width: 90%;
+        }
+        .foda-parts{
+            display: block;
+
+            .first-part{
+                width: 100%;
+                border-right: none;
+                border-bottom: 1px solid #727272;
+            }
+            .second-part{
+                width: 100%;
+                padding-right: 70px;
+                margin-top: 25px;
+            }
+        }
+
+    }
+    .international{
+        width: 90%;
+
+        justify-content: center;
+        p{
+            padding: 0;
+        }
+        img{
+            width: 80%;
+        }
+    }
+    
+}
