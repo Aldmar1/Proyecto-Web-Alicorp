@@ -11,235 +11,181 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md"> 
-        <div class="container-fluid">
-    
-          <a class="navbar-brand" href="index.html" class="image-logo"><img src="image/logoalicorp.png" class="image-logo" alt="" width="180px">
-          </a>
-    
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-    
-          <div class="collapse navbar-collapse" id="menu">
-            <ul class="navbar-nav ms-auto">
+    <!------------------ Barra de navegación --------------------->
+<nav class="navbar navbar-expand-md"> 
+  <div class="container-fluid">
+      <!-- Enlace a la página principal con el logo -->
+      <a class="navbar-brand" href="index.html" class="image-logo">
+          <img src="image/logoalicorp.png" class="image-logo" alt="Logo" width="180px">
+      </a>
+  
+      <!-- Botón para colapsar el menú en pantallas pequeñas -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <!-- Menú de navegación colapsable -->
+      <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto">
+              <!-- Elementos de navegación -->
               <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-              <li class="nav-item" ><a class="nav-link" href="nosotros.html">Nosotros</a></li>
-              <li class="nav-item"  ><a class="nav-link active" href="productos.html">Productos y Soluciones</a></li>
-              <li class="nav-item" ><a class="nav-link" href="atencionalcliente.html">Atención al Cliente y Proveedores</a></li>
-            </ul>
+              <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+              <li class="nav-item"><a class="nav-link active" href="productos.html">Productos y Soluciones</a></li>
+              <li class="nav-item"><a class="nav-link" href="atencionalcliente.html">Atención al Cliente y Proveedores</a></li>
+          </ul>
+      </div>
+  </div>
+</nav>
+
+<!-- Imagen de banner con ancho al 100% -->
+<img width="100%" src="image/BannerProductos.svg" alt="Banner Productos">
+
+<!------------------ Sección de marcas --------------------->
+<section>
+  <main class="brand-section">
+      <!-- Contenedor de botones para filtros de marca -->
+      <div class="brand-section__left">
+          <button>Consumo masivo</button>
+          <button>Categorias</button>
+      </div>
+      <!-- Contenedor para ordenar los productos -->
+      <div class="brand-section__right">
+          <div>
+              <h5>Ordene:</h5>
+              <select name="options" id="">
+                  <option value="">Seleccione</option>
+                  <option value="">Alfabeticamente</option>
+                  <option value="">Más buscado</option>
+              </select>
           </div>
-        </div>
-    </nav>
+      </div>
+  </main>
+</section>
 
-    <img width="100%" src="image/BannerProductos.svg" alt="" width="100%">
+<!------------------ Sección de marcas con logotipos --------------------->
+<section>
+  <div class="container text-center">
+      <div class="row">
+          <!-- Cada columna contiene un logo de marca y su nombre -->
+          <div class="col">
+              <img src="image/DonVittorio.png" alt="Don Vittorio">
+              <h4>Don Vittorio</h4>
+          </div>
+          <div class="col">
+              <img src="image/Primor.png" alt="Primor">
+              <h4>Primor</h4>
+          </div>
+          <div class="col">
+              <img src="image/Alacena.png" alt="AlaCena">
+              <h4>AlaCena</h4>
+          </div>
+          <div class="col">
+              <img src="image/nicolini.png" alt="Nicolini">
+              <h4>Nicolini</h4>
+          </div>
+      </div>
+  </div>
+  <div class="container text-center">
+      <div class="row">
+          <!-- Cada columna contiene otro conjunto de logos de marcas y sus nombres -->
+          <div class="col">
+              <img src="image/cocinero.png" alt="Cocinero">
+              <h4>Cocinero</h4>
+          </div>
+          <div class="col">
+              <img src="image/BlancaFlor.png" alt="Blanca Flor">
+              <h4>Blanca Flor</h4>
+          </div>
+          <div class="col">
+              <img src="image/Life.png" alt="Life">
+              <h4>Life</h4>
+          </div>
+          <div class="col">
+              <img src="image/Angel.png" alt="Angel">
+              <h4>Angel</h4>
+          </div>
+      </div>
+  </div>
+</section>
 
+<!------------------ Sección de paginación --------------------->
+<section>
+  <main class="pagination">
+      <!-- Iconos para la paginación y números de página -->
+      <i class="bi bi-chevron-left"></i>
+      <h5>1</h5>
+      <h5>2</h5>
+      <h5>3</h5>
+      <i class="bi bi-chevron-right"></i>
+  </main>
+</section>
 
-    <section>
-        <main class="brand-section">
-            <div class="brand-section__left">
-                <button>Consumo masivo</button>
-                <button>Categorias</button>
-            </div>
-            <div class="brand-section__right">
-                <div>
-                    <h5>Ordene:</h5>
-                    <select name="options" id="">
-                        <option value="">Seleccione</option>
-                        <option value="">Alfabeticamente</option>
-                        <option value="">Más buscado</option>
-                    </select>
-                </div>
-            </div>
-        </main>
-    </section>
-
-    <!-- <section class="d-flex align-items-center w-70 mx-auto" style="height: 10rem;">
-        <div class="d-flex w-50">
-            <button class="me-4">Consumo masivo</button>
-            <button>Categorias</button>
-        </div>
-        <div class="d-flex w-50 justify-content-center">
-            <div class="d-flex">
-                <h3>Ordene:</h3>
-                <select name="" id="">
-                    <option value="">Seleccione</option>
-                </select>
-            </div>
-        </div>
-    </section> -->
-
-    <section>
-        <div class="container text-center">
-
-            <div class="row">
-
-              <div class="col">
-                <img src="image/DonVittorio.png" alt="">
-                <h4>Don Vittorio</h4>
-              </div>
-              <div class="col">
-                <img src="image/Primor.png" alt="">
-                <h4>Primor</h4>
-              </div>
-              <div class="col">
-                <img src="image/Alacena.png" alt="">
-                <h4>AlaCena</h4>
-              </div>
-              <div class="col">
-                <img src="image/nicolini.png" alt="">
-                <h4>Nicolini</h4>
-              </div>
-            </div>
-        </div>
-        <div class="container text-center">
-
-            <div class="row">
-
-              <div class="col">
-                <img src="image/cocinero.png" alt="">
-                <h4>Cocinero</h4>
-              </div>
-              <div class="col">
-                <img src="image/BlancaFlor.png" alt="">
-                <h4>Blanca Flor</h4>
-              </div>
-              <div class="col">
-                <img src="image/Life.png" alt="">
-                <h4>Life</h4>
-              </div>
-              <div class="col">
-                <img src="image/Angel.png" alt="">
-                <h4>Angel</h4>
-              </div>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <main class="pagination">
-            <i class="bi bi-chevron-left"></i>
-            <h5>1</h5>
-            <h5>2</h5>
-            <h5>3</h5>
-            <i class="bi bi-chevron-right"></i>
-        </main>
-    </section>
-
-    <footer class=" text-dark pt-5 pb-4" style="background-color: #ed1b2f;">
-      
-
-      <div class="container text-center text-md-start">
-        <div class="row text-center text-md-start">
+<!------------------ Footer --------------------->
+<footer class="text-dark pt-5 pb-4" style="background-color: #ed1b2f;">
+  <div class="container text-center text-md-start">
+      <div class="row text-center text-md-start">
+          <!-- Sección de información sobre la empresa -->
           <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h5 class="text-uppercase mb-4 font-weight-bold text-light">Nosotros</h5>
-            <hr class="mb-4">
-            <p style="color: #f0f8ff;">Confiamos y desarrollamos el talento de nuestra gente para fortalecer nuestra cultura, lo que nos impulsará hacia los objetivos de crecimiento. buscamos compartir conocimiento y experiencias, y llevar la “Cultura Alicorp” a donde vayamos. estamos trabajando en fortalecer nuestro modelo de gobierno y nuestros roles.</p>
+              <h5 class="text-uppercase mb-4 font-weight-bold text-light">Nosotros</h5>
+              <hr class="mb-4">
+              <p style="color: #f0f8ff;">
+                  Confiamos y desarrollamos el talento de nuestra gente para fortalecer nuestra cultura, lo que nos impulsará hacia los objetivos de crecimiento. buscamos compartir conocimiento y experiencias, y llevar la “Cultura Alicorp” a donde vayamos. estamos trabajando en fortalecer nuestro modelo de gobierno y nuestros roles.
+              </p>
           </div>
 
+          <!-- Sección de productos y soluciones -->
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h5 class="text-uppercase mb-4 font-weight-bold text-light">Productos y Soluciones</h5>
-            <hr class="mb-4">
-            <p>
-              <a href="#" class="text-light">Productos Perú</a>
-            </p>
-            <p>
-              <a href="#" class="text-light">Productos Argentina</a>
-            </p>
-            <p>
-              <a href="#" class="text-light">Productos Bolivia</a>
-            </p>
-            <p>
-              <a href="#" class="text-light">Productos Ecuador</a>
-            </p>
-
+              <h5 class="text-uppercase mb-4 font-weight-bold text-light">Productos y Soluciones</h5>
+              <hr class="mb-4">
+              <p><a href="#" class="text-light">Productos Perú</a></p>
+              <p><a href="#" class="text-light">Productos Argentina</a></p>
+              <p><a href="#" class="text-light">Productos Bolivia</a></p>
+              <p><a href="#" class="text-light">Productos Ecuador</a></p>
           </div>
 
+          <!-- Sección de sostenibilidad -->
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h5 class="text-uppercase mb-4 font-weight-bold text-light">Sostenibilidad</h5>
-            <hr class="mb-4">
-            <p>
-              <a href="#" class="text-light">Bienestar</a>
-            </p>
-            <p>
-              <a href="#" class="text-light">Cuidado del medio ambiente</a>
-            </p>
-            <p>
-              <a href="#" class="text-light">Desarrollo de la cadena del valor</a>
-            </p>
-            <p>
-              <a href="#" class="text-light">Otros</a>
-            </p>
-
+              <h5 class="text-uppercase mb-4 font-weight-bold text-light">Sostenibilidad</h5>
+              <hr class="mb-4">
+              <p><a href="#" class="text-light">Bienestar</a></p>
+              <p><a href="#" class="text-light">Cuidado del medio ambiente</a></p>
+              <p><a href="#" class="text-light">Desarrollo de la cadena del valor</a></p>
+              <p><a href="#" class="text-light">Otros</a></p>
           </div>
 
+          <!-- Sección de contacto -->
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h5 class="text-uppercase mb-4 font-weight-bold text-light">Contacto</h5>
-            <hr class="mb-4">
-            <p>
-              <li class="fas fa-home me-3 text-light">Callao,Lima, Perú</li>
-            </p>
-            <p>
-              <li class="fas fa-home me-3 text-light">https://www.alicorp.com.pe/</li>
-            </p>
-            <p>
-              <li class="fas fa-home me-3 text-light">+511 708 9300</li>
-            </p>
-            <p>
-              <li class="fas fa-home me-3 text-light">+511 315 0800</li>
-            </p>
+              <h5 class="text-uppercase mb-4 font-weight-bold text-light">Contacto</h5>
+              <hr class="mb-4">
+              <p><li class="fas fa-home me-3 text-light">Callao, Lima, Perú</li></p>
+              <p><li class="fas fa-home me-3 text-light">https://www.alicorp.com.pe/</li></p>
+              <p><li class="fas fa-home me-3 text-light">+511 708 9300</li></p>
+              <p><li class="fas fa-home me-3 text-light">+511 315 0800</li></p>
           </div> 
 
           <hr class="mb-4">
 
+          <!-- Información de copyright y enlaces a redes sociales -->
           <div class="text-center mb-2">
-            <p style="color: #f0f8ff;">
-              Copyright Todos los derechos reservados
-              <a href="#"> <strong class="text-light">Test</strong ></a>
-            </p>
+              <p style="color: #f0f8ff;">
+                  Copyright Todos los derechos reservados
+                  <a href="#"><strong class="text-light">Test</strong></a>
+              </p>
           </div>
 
-          <div  class="text-center">
-
+          <div class="text-center">
               <ul class="list-unstyled list-inline">
-                  <li class="list-inline-item">
-                    <a href="#" class="text-dark"><i class="fab fa-facebook"></i></a>
-
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="#" class="text-dark"><i class="fab fa-twitter"></i></a>
-
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="#" class="text-dark"><i class="fab fa-google-plus"></i></a>
-
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="#" class="text-dark"><i class="fab fa-linkedin-in"></i></a>
-
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="#" class="text-dark"><i class="fab fa-youtube"></i></a>
-
-                  </li>
-
+                  <li class="list-inline-item"><a href="#" class="text-dark"><i class="fab fa-facebook"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="text-dark"><i class="fab fa-twitter"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="text-dark"><i class="fab fa-google-plus"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="text-dark"><i class="fab fa-linkedin-in"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="text-dark"><i class="fab fa-youtube"></i></a></li>
               </ul>
-            
           </div>
-          
-
-
-
-
-
-
-
-
-        </div>
       </div>
+  </div>
+</footer>
 
-
-    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
