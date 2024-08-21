@@ -12,14 +12,14 @@ body {
 /* Estilo para enlaces */
 a {
     text-decoration: none;
-    color: rgb(49, 44, 44);
+    color: #312c2c;
     font-size: 16px;
     margin-right: 20px;
 }
 
 a:hover {
     text-decoration: none;
-    color: rgb(236, 0, 0);
+    color: #ec0000;
     font-size: 16px;
     margin-right: 20px;
 }
@@ -28,7 +28,7 @@ a:hover {
 .header {
     display: flex;
     height: 110px;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     justify-content: space-between;
     align-items: center;
     padding: 0px;
@@ -58,7 +58,7 @@ a:hover {
             color: #1E5532;
             font-family: "Ropa Sans", sans-serif;
             font-size: 28px;
-            border-bottom: 1px solid green;
+            border-bottom: 1px solid #008000;
         }
 
         .btn {
@@ -88,7 +88,7 @@ a:hover {
     margin: 2.5rem 0;
     
     .nav-item {
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid #000000;
     }
 }
 
@@ -103,7 +103,7 @@ a:hover {
 
 /* Estilo para la sección FODA */
 .foda {
-    background-color: white;
+    background-color: #ffffff;
 }
 
 /* Estilo para la sección FODA (modificación en clase bootstrap) */
@@ -188,7 +188,7 @@ a:hover {
         }
 
         a, h3, h4, h5 {
-            color: white;
+            color: #ffffff;
         }
 
         h5 {
@@ -228,26 +228,26 @@ li {
 
 /* Estilo para elementos select */
 select {
-    color: white;
+    color: #ffffff;
     padding: 0px 10px;
     font-size: 16px;
-    border: 1px solid white;
+    border: 1px solid #ffffff;
     background-color: #ED1B2F;
     border-radius: 10px;
 }
 
 select:hover {
-    color: white;
+    color: #ffffff;
     padding: 0px 10px;
     font-size: 16px;
-    border: 1px solid white;
+    border: 1px solid #ffffff;
     background-color: #ED1B2F;
     border-radius: 10px;
 }
 
 /* Estilo para ítems de navegación en hover */
 .nav-item :hover {
-    color: rgb(235, 29, 29);
+    color: #eb1d1d;
 }
 
 /* Estilo para ítems de navegación */
