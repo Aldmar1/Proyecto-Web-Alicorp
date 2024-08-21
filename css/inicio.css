@@ -1,73 +1,73 @@
-*{
-    
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+
+/* Reinicio de estilos para todos los elementos */
+* {
     margin: 0;
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit
-    
+    font: inherit;
 }
 
-/* titulos arriba de los containers */
-.title1{
-    color: #00580c;
-}
-.subtitle{
+/* Estilos para títulos principales y secundarios */
+.title1 {
     color: #00580c;
 }
 
-/* botones */
-.btn-outline-danger{
+.subtitle {
+    color: #00580c; 
+}
+
+/* Estilos para botones con borde de color rojo */
+.btn-outline-danger {
     margin-top: 50px;
 }
 
-/* contenerdor de cards */
-.values1{
-    background-color: rgba(250,249,245,255);
+/* Estilos para el contenedor de cards */
+.values1 {
+    background-color: #fffbf6;
 }
 
-/* container redes sociales */
-.containers-rrss{
+/* Estilos para el contenedor de redes sociales */
+.containers-rrss {
     width: 1060px;
-  margin: 0 auto;
+    margin: 0 auto;
 }
 
-.rr-ss{
-    display: flex; 
+.rr-ss {
+    display: flex;
     justify-content: center;
     list-style: none;
 }
 
-/* listas dentro de nav_bar */
-.list{
+/* Estilos para las listas dentro de la barra de navegación */
+.list {
     padding: 10px;
 }
 
-/* modificación en estilo bootstrap en nav */
-
-.nav-item :hover{
+/* Modificaciones del estilo de Bootstrap para la barra de navegación */
+.nav-item:hover {
     color: #eb1d1d;
 }
 
-.nav-item{
+.nav-item {
     font-size: 20px;
-    
 }
 
-a{
+a {
     text-decoration: none;
-    
 }
 
-p{
+p {
     font-size: 17px;
 }
 
-li{
+li {
     list-style-type: none;
 }
-/* cierre de modificación en estilo bootstrap en nav*/
 
+/* Estilos para el banner con botón */
 .banner {
     position: relative;
     overflow: hidden;
@@ -85,7 +85,7 @@ li{
 .btn-green {
     position: relative;
     background-color: #026805;
-    color: white;
+    color: #ffffff;
     padding: 0.8em 3em;
     text-decoration: none;
     border-radius: 5%;
@@ -115,12 +115,15 @@ li{
 }
 
 .button-text {
-    color: white;
+    color: #ffffff;
     font-size: 3.5em;
     font-weight: bold;
     margin: 0;
 }
 
+/* Ajustes responsivos para diferentes tamaños de pantalla */
+
+/* Pantallas de hasta 1024px de ancho */
 @media (max-width: 1024px) {
     .button-container {
         width: 90%;
@@ -144,6 +147,7 @@ li{
     }
 }
 
+/* Pantallas de hasta 768px de ancho */
 @media (max-width: 768px) {
     .button-container {
         width: 95%;
@@ -167,6 +171,7 @@ li{
     }
 }
 
+/* Pantallas de hasta 480px de ancho */
 @media (max-width: 480px) {
     .button-container {
         width: 100%;
@@ -189,6 +194,7 @@ li{
         font-size: 1em;
     }
 }
+
 
 
 

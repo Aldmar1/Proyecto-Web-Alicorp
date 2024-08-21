@@ -1,213 +1,138 @@
+/* Importar fuentes desde Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
 
-*{
-    
+/* Limpieza del código para eliminar márgenes, rellenos y bordes predeterminados */
+* {
     margin: 0;
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit
-    
+    font: inherit;
 }
 
-.banner{
-
+/* Estilo del banner */
+.banner {
     background-image: url("../image/banneraacyp.png");
-    
     background-repeat: no-repeat;
     background-size: cover;
     color: #faebd7;
     padding: 35px;
-    height: 350px
-
+    height: 350px;
 }
 
-.banner-text{margin-top: 75px;
+/* Estilo del texto en el banner */
+.banner-text {
+    margin-top: 75px;
     margin-left: 100px;
     font-size: 25px;
 }
 
-body{
+/* Fuente para el cuerpo del documento */
+body {
     font-family: "Sarala", sans-serif;
 }
 
-
-.titlea{
+/* Estilo para el título a */
+.titlea {
     position: relative;
     top: 10%;
-}
-/* .logo{
-    display: flex;
-    align-items: center;
-}
-
-.logo-img{
-    height: 160px;
-    margin-left: 24rem;
-} */
-
-
-nav a{
-    font-weight: 600;
-    padding-right: 10px;
-    color: #333232;
-}
-nav a:hover{
-    color: #ff2828;
-}
-a{
-    text-decoration: #f51212;
-}
-
-/* columnas atencion al cliente */
-
-.titlea{
     text-align: center;
     margin-top: 25px;
     text-decoration: underline;
     color: #015201;
     font-weight: 600;
-    
 }
 
-.titleb{
+/* Estilo para el título b */
+.titleb {
     text-align: center;
     margin-top: 25px;
     color: #015201;
     font-weight: 600;
-    
 }
 
-.container{
+/* Estilo del contenedor principal */
+.container {
     margin-top: 50px;
 }
 
-.text1{
+/* Estilo del texto 1 */
+.text1 {
     margin-top: 70px;
 }
 
-.text2{
+/* Estilo del texto 2 */
+.text2 {
     margin-top: 30px;
 }
 
-.btn-outline-danger{
+/* Estilo para el botón de peligro */
+.btn-outline-danger {
     margin-top: 20px;
 }
 
-.subtitle1{
+/* Estilo del subtítulo 1 */
+.subtitle1 {
     margin-top: 40px;
     color: #094703;
 }
 
-.logo-atencion{
+/* Estilo para el logo de atención */
+.logo-atencion {
     margin-top: 50px;
     width: 130px;
 }
 
-.icon1{
+/* Estilo para el ícono 1 */
+.icon1 {
     margin-top: 50px;
 }
 
-.subtitle2{
+/* Estilo del subtítulo 2 */
+.subtitle2 {
     margin-top: 35px;
 }
 
-/* .footer {
-    width: 75%;
-    margin: 0 auto;
-    display: flex;
-    padding: 2rem 0;
-    height: 500px;
-    padding-bottom: 40px;
-    .footer__column {
-        width: 20%;
-
-        &.first {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        &.third, &.fourth, &.fifth {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-        &.fourth{
-            height: 370px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-
-        a {
-            font-size: 10px;
-        }
-
-        a, img {
-            display: block;
-        }
-
-        a, h3, h4, h5 {
-            color: white;
-        }
-        h5 {
-            font-size: 15px;
-        }
-        select {
-            color: white;             
-            padding: 0px 10px;        
-            font-size: 16px;          
-            border: 1px solid white;   
-            background-color: #ED1B2F; 
-            border-radius: 10px;        
-        }
-        
-    }
-} */
-
-
-/* inicio de modificación de header */
-.nav-item :hover{
+/* Estilo para los elementos de navegación al pasar el mouse */
+.nav-item:hover {
     color: #eb1d1d;
 }
 
-.nav-item{
+/* Estilo para los elementos de navegación */
+.nav-item {
     font-size: 20px;
-    
 }
 
-
-a{
+/* Estilo general para los enlaces */
+a {
     text-decoration: none;
-    
 }
 
-p{
+/* Estilo para los párrafos */
+p {
     font-size: 17px;
 }
 
-li{
+/* Estilo para los elementos de lista */
+li {
     list-style-type: none;
 }
-/* ciere de modificación del header */
 
-
-
-/* inicio de modificación de bootstrap para que sea responsivo a diferentes tamaños de dispositivos */
-@media(min-width:768px){
-    .logo-img{
+/* Estilo para la imagen del logo en pantallas medianas */
+@media (min-width: 768px) {
+    .logo-img {
         height: 160px;
         margin-left: 1rem;
     }
 }
 
-@media(min-width:992px){
-    .logo-img{
+/* Estilo para la imagen del logo en pantallas grandes */
+@media (min-width: 992px) {
+    .logo-img {
         height: 160px;
         margin-left: 3rem;
     }
 }
-/* fin de modificación de bootstrap para que sea responsivo a diferentes tamaños de dispositivos */
+
 
